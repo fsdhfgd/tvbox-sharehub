@@ -1,0 +1,23 @@
+{
+  "spider": "https://raw.githubusercontent.com/你的用户名/tvbox-sharehub/main/spider.js",
+  "sites": [
+    {
+      "key": "sharehub_duanju",
+      "name": "🌸 ShareHub短剧",
+      "type": 3,
+      "api": "csp_ShareHub",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://pan.sharehub.club"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Quark解析",
+      "type": 0,
+      "url": "http://127.0.0.1:9977/parse"
+    }
+  ],
+  "flags": ["quark"]
+}
