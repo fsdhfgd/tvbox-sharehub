@@ -3,21 +3,23 @@
   "sites": [
     {
       "key": "sharehub_duanju",
-      "name": "🌸 ShareHub短剧",
+      "name": "🌸 网盘短剧 Pro",
       "type": 3,
       "api": "csp_ShareHub",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext": "https://pan.sharehub.club"
     }
   ],
   "parses": [
     {
-      "name": "Quark解析",
+      "name": "夸克直链",
       "type": 0,
       "url": "http://127.0.0.1:9977/parse"
     }
   ],
-  "flags": ["quark"]
+  "flags": ["quark"],
+  "live": "",
+  "wallpaper": "https://fsdf.sffs.netlib.re/wallpaper.jpg"
 }
